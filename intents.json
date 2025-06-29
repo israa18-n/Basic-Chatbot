@@ -1,0 +1,96 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "What's up", "Good morning", "Good evening", "Yo"],
+      "responses": ["Hello!", "Hi there!", "Hey! ", "Yo! How can I help you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later", "See ya", "Talk to you later"],
+      "responses": ["Goodbye!", "See you later ", "Take care!", "Bye bye!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "I appreciate it", "Thanks a lot", "Thx"],
+      "responses": ["You're welcome!", "No problem!", "Anytime!", "With pleasure "]
+    },
+    {
+      "tag": "name",
+      "patterns": ["What's your name?", "Who are you?", "Tell me your name"],
+      "responses": ["I'm Chatbot, your virtual friend!", "You can call me Chatbot "]
+    },
+    {
+      "tag": "how_are_you",
+      "patterns": ["How are you?", "Are you okay?", "How's it going?", "What's up?"],
+      "responses": ["I'm doing great, thanks! And you?", "Feeling fantastic today ", "All good here!"]
+    },
+    {
+      "tag": "help",
+      "patterns": ["Can you help me?", "I need help", "Help me", "Support please"],
+      "responses": ["Of course, how can I help you?", "Sure, tell me what's wrong.", "I'm here to help you!"]
+    },
+    {
+      "tag": "capital",
+      "patterns": ["What is the capital of France?", "Capital of Tunisia?", "Tell me a capital city"],
+      "responses": ["The capital of France is Paris 🇫🇷", "Tunis is the capital of Tunisia 🇹🇳"]
+    },
+    {
+      "tag": "study_tips",
+      "patterns": ["How to study better?", "Give me study tips", "Help me concentrate", "I can't focus"],
+      "responses": [
+        "Try studying in 25-minute blocks with 5-minute breaks (Pomodoro method) ",
+        "Minimize distractions and set small goals!",
+        "Start with the hardest task first — it makes everything else easier."
+      ]
+    },
+    {
+      "tag": "date",
+      "patterns": ["What's the date today?", "Tell me the date", "Which day is it?"],
+      "responses": ["I'm not sure of the date, but you can check your calendar "]
+    },
+    {
+      "tag": "mood",
+      "patterns": ["I'm sad", "I feel down", "I'm not okay", "I feel stressed"],
+      "responses": ["I'm here for you  Want to talk about it?", "Take a deep breath  You're doing great."]
+    },
+    {
+      "tag": "motivation",
+      "patterns": ["Motivate me", "I need motivation", "Say something inspiring"],
+      "responses": [
+        "Don't watch the clock. Do what it does: keep going ⏱",
+        "You’re stronger than you think  Keep pushing forward!",
+        "Great things never come from comfort zones "
+      ]
+    },
+    {
+      "tag": "ai_definition",
+      "patterns": ["What is AI?", "Define artificial intelligence", "Explain AI"],
+      "responses": [
+        "AI stands for Artificial Intelligence — machines that mimic human intelligence ",
+        "Artificial Intelligence allows systems to learn and make decisions just like us!"
+      ]
+    },
+    {
+      "tag": "meal",
+      "patterns": ["What should I eat today?", "Give me a meal idea", "Any food suggestions?"],
+      "responses": [
+        "How about some couscous? Or maybe pasta with veggies!",
+        "Tunisian bricks are always a good idea "
+      ]
+    },
+    {
+      "tag": "song_suggestion",
+      "patterns": ["Suggest me a song", "Any music suggestion?", "What should I listen to?"],
+      "responses": [
+        "Try 'Believer' by Imagine Dragons! 🎵",
+        "How about some Lo-fi beats to chill and study "
+      ]
+    },
+    {
+      "tag": "creator",
+      "patterns": ["Who made you?", "Who created you?", "Who is your creator?"],
+      "responses": ["I was created by a brilliant human  Maybe it's Israa?"]
+    }
+  ]
+}
